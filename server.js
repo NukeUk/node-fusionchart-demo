@@ -5,7 +5,8 @@ var express = require("express");
 var mongodb = require("mongodb");
 
 //MongoDB connection URL - mongodb://host:port/dbName
-var dbHost = "mongodb://192.168.1.38:27017/fusion_demo";
+//var dbHost = "mongodb://192.168.1.38:27017/fusion_demo";
+var dbHost = "mongodb://localhost:27017/fusion_demo";
 
 //DB Object
 var dbObject;
